@@ -1,0 +1,2 @@
+# TheFHunter
+TheFHunter.py is a script that recursively searches a files by formats, unigue words or by names in a directory or directories. If TheFHunter.py finds a files, it will execute the payload given to it such as to delete found files, encrypt found files, zip found files, count found files, move and copy the found files to other directory. It also contains decryption and unzipping features that can be used barely on a single file. As for counting files, the result can be saved in csv format.
