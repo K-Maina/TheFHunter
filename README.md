@@ -14,29 +14,30 @@
 
     version 1.0
 
-**TheFHunter.py** is a script that recursively searches a files by formats, unigue words or by names in a directory or directories.If the script finds a the correct files, it will execute the payload given to it such as to delete found files, encrypt found files, zip found files,
+**TheFHunter.py** is a script that recursively searches a files by formats, unigue words or by names in a directory or directories.If the script finds the correct files, it will execute the payload given to it such as to delete found files, encrypt found files, zip found files,
 count found files, move and copy the found files to other directory.It also contains decryption and unzipping features that can be used barely on a single file.As for counting files, the result can be saved in csv format.
 
 # SETUP
 1. Install python 3.
-2. Clone the repo :-
+2. Install pip3
+3. Clone the repo :-
 ```
 git clone https://github.com/K-Maina/TheFHunter.git
 ```
-3. Navigate to the directory of the scripts :-
+4. Navigate to the directory of the scripts :-
 ```
 cd [directory path]
 ```
-4. Run setup.py script :-
+5. Run setup.py script :-
 ```
 python setup.py
 ```
-5. Run TheFHunter.py :-
+6. Run TheFHunter.py :-
 ```
 python TheFHunter.py
 ```
 
-*Note : As for setup.py, You can manually install the packages by running `pip install [package name]`*
+*Note : As for setup.py, You can manually install the packages by running `pip3 install [package name]` or `pip install [package name]`*
 
 # DEPENDENCIES
 
@@ -121,7 +122,7 @@ python TheFHunter.py --decrypt [file path] [password]
 ```
 python TheFHunter.py --unzip [file path]
 ```
-*Note : As for search by format, the format must not include '.'.e.g :-*
+*Note : As for search by format, the format must not include __'.'__.e.g :-*
 
 **Correct :-**
 ```
