@@ -122,6 +122,10 @@ python TheFHunter.py --decrypt [file path] [password]
 ```
 python TheFHunter.py --unzip [file path]
 ```
+* To make the script stops as soon as it gets the correct file :-
+```
+python TheFHunter.py -d [directory path] -n [name] -S
+```
 *Note : As for search by format, the format must not include __'.'__.e.g :-*
 
 **Correct :-**
